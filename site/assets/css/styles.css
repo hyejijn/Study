@@ -133,6 +133,56 @@ nav a{
     width: 250px !important; 
     padding: 0 10px;
 }
+/* .margin23{
+    margin-top: 23px;
+    margin-bottom: 23px;
+} */
+
+
+.cotnent-textTitle h2{
+    font-size: 32px;
+    font-weight: 600;
+    width: 398px;
+    margin: auto;
+    margin-top: 50px;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.cotnent-textTitle p{
+    font-size: 16px;
+    font-weight: 500; 
+    width: 398px;
+    margin: auto;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.text-section h2{
+    font-size: 32px;
+    font-weight: 600;
+    width: 399px;
+    margin: auto;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 23px;
+    text-align: left;
+}
+.text-section p{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    color: #767676;
+    text-align: left;
+}
 
 .d-flex{
     display: flex;
@@ -147,6 +197,21 @@ nav a{
 }
 .coulmn-4{
     width: 30%;
+}
+.swiper-wrapper{
+    height: auto !important;
+}
+.content-textTitle{
+    padding: 100px 0;
+}
+.content-textTitle h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-textTitle p{
+    font-size: 18px;
+    text-align: center;
 }
 
 
@@ -229,6 +294,56 @@ nav a{
     .icon2{
         display: none;
     }
+
+    .img-section{
+        margin-bottom: 20px;
+    }
+
+    .content-textTitle h2{
+        font-size: 20px;
+        font-weight: 600;
+        width: 398px;
+        letter-spacing: -0.025em;
+        line-height: 140%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .text-section{
+        margin-bottom: 20px;
+    }
+    .content-textTitle p{
+        font-size: 14px;
+        font-weight: 600;
+        width: 398px;
+        margin: auto;
+        letter-spacing: -0.025em;
+        line-height: 140%;
+        text-align: center;
+    }
+    .text-section h2{
+        font-size: 18px;
+        font-weight: 600;
+        width: 398px;
+        margin: auto;
+        letter-spacing: -0.025em;
+        line-height: 140%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .text-section p{
+        font-size: 12px;
+        font-weight: 600;
+        width: 398px;
+        margin: auto;
+        letter-spacing: -0.025em;
+        line-height: 140%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
 
 }
    
