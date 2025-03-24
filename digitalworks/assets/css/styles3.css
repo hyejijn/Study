@@ -1,0 +1,87 @@
+.DIYGO{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.contain{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.d-flex{
+    display: flex;
+}
+
+.mt-50{
+    margin-bottom: 50px;
+}
+
+
+.text{
+    width: 50%;
+    padding-bottom: 40px;
+    color:#333;
+
+}
+
+.content{
+    width: 100%;
+
+}
+.txt_top{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.64px;
+    margin-bottom: 40px;
+}
+
+.txt_b{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+
+@media(max-width:1280px){
+   
+}
+
+@media(max-width:1080px){
+   .d-flex{
+    flex-direction: column-reverse;
+   }
+   .contain{
+    width: 100%;
+    gap: 0;
+   }
+   .img{
+    width: 80%;
+    margin: auto;
+   }
+   .text{
+    width: 70%;
+    margin: auto;
+   }
+
+}
+
+
+@media(max-width:768px){
+
+     .text{
+        text-align: center;
+    };
+
+    
+} 
+
