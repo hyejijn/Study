@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>.before() 메소드</h1>
+    <table>
+        <tr id="firstRow">
+            <td>첫번째</td>
+            <td>두번째</td>
+        </tr>
+    </table>
+    <button>행 추가</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
+    <script>
+        $(function(){
+            $('button').click(function(){
+                $("#firstRow").after("<tr><td>Puri</td><td>Fuli</td></tr>").before("<tr><td>Nya</td><td>Nya</td></tr>")
+            })
+        })
+    </script>
+</body>
+</html>
