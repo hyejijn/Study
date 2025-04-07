@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+
+}
+
+.main__img img{
+    width: 100%;
+    height: 780px;
+    object-fit: cover;
+}
+
+
+
+
+
+.swiper-slide{
+    position: relative;
+}
+
+.main__text{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 3.2rem;
+    z-index: 999;
+}
